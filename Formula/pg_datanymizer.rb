@@ -1,5 +1,5 @@
 class PgDatanymizer < Formula
-  version_str = "0.5.1"
+  version_str = "0.6.0"
 
   desc "Powerful database anonymizer with flexible rules. Written in Rust."
   homepage "https://github.com/datanymizer/datanymizer"
@@ -20,8 +20,6 @@ class PgDatanymizer < Formula
     url "https://github.com/datanymizer/datanymizer.git"
     depends_on "rust" => :build
   end
-
-  bottle :unneeded
 
   def install
     if build.head?
