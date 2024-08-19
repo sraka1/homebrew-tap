@@ -17,7 +17,7 @@ class PgDatanymizer < Formula
   end
 
   head do
-    url "https://github.com/datanymizer/datanymizer.git"
+    url "https://github.com/datanymizer/datanymizer.git", branch: "main"
     depends_on "rust" => :build
   end
 
